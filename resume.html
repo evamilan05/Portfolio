@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="stylesheet/styles.css"> 
+</head>
+<body>
+<header>
+    <h1>Eva Engel</h1>
+    <a href="mailto:evamilan@gmial.com" class="contact-link">
+        <img src="images/email.logo.png" alt="Email" class="contact-icon">  evamilan@gmail.com l 
+    </a>
+    <a href="malito:(310)997-7752" class="contact-link">
+        <img src="images/phone_logo.png" alt="Cell" class="contact-icon">   (310) 997-7752 l 
+    </a>
+    <a href="malito:evamilanengel" class="contact-link">
+        <img src="images/download.jpg" alt="Socials" class="contact-icon">  evamilanengel
+    </a> 
+</header>
+
+<section>
+    <h2>Objective</h2>
+    <p>Enthusiastic front-end web developer student skilled in creating user-friendly, responsive websites. Seeking an internship to apply my sklills and contribut to real-world projects.</p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <h3>Batchelor of Science in Computer Science</h3>
+    <p>University of Oregon, Expected Graduation: July 2028</p>
+    <ul>
+        <li>Relevant Courses: Data Structures, Web Development, Database Systems</li>
+        <li>GPA: 3.8/4.0</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: HTML, CSS, JavaScript</li>
+        <li>Frameworks: Bootstrap, React</li>
+        <li>Tools: Git, Figma, VS Code</li>
+        <li>Soft Skills: Team Collaboration, Communication, Problem-Solving</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <h3>Portfolio Website</h3>
+    <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my work.</p>
+    <h3>E-Commerse Website Mockup</h3>
+    <p>Created a fully responsive e-commerse website protoytpe, focusing on a seamless user experience.</p>
+</section>
+
+<section>
+    <h2>Experience</h2>
+    <h3>Web Development Intern</h3>
+    <p>Innovative Web Solutions, June 2024 - August 2024</p>
+    <ul>
+        <li>Assisted in creating responsive website layouts for small business clients. </li>
+        <li>Collaborated with designers to ranslate mockups into functional web pages.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Extracurricular Activities</h2>
+    <ul>
+        <li>Active Member, University Web Development Club</li>
+        <li>Volunteer Mentor, Local Coding Bootcamp</li>
+    </ul>
+</section>
+
+<footer>
+    <p>© 2025 Eva Engel. All rights reserved.</p>
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

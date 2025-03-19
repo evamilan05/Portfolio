@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>
+        <h1>Rhinehart Art </h1> 
+
+    </title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script>
+        function openContactForm() {
+            document.getElementById("contact").style.display = "block";
+        }
+    </script>
+</head> 
+
+<body>
+    <header class="banner">
+        <h1>Rhinehart Art</h1>
+
+    </header>
+
+    <section class="static-content">
+        <h2>Ann's passion for art is visible in her work. She has been creating since she was a child.  
+            Annie finds joy in connecting with her clients through art.</h2>
+        <button class="contact-btn" onclick="openContactForm()">
+            CONTACT 
+        </button>
+        <div id="contact" class="form-popup" style="display: none;">
+            <form class="form-container">
+                <h2>Contact Annie</h2>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
+                <label for="email">Email</label> 
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Submit</button>
+            </form>
+           </div> 
+    </section>
+    <section class="history">
+        <div class="history-content">
+            <div class="history-text">
+                <h2>About Annie</h2>
+                <p>Artist Susan Ann "Annie" Rhinehart grew up on a dairy farm in Ohio. That's where her love for nature, animals and flowers began.
+                    Her other love in life is ART! Annie studied at Ohio State University and the Columbus College of Art. To this day she spends much of her time painting murals and signs, creating collages and crafts, and illustrating books. She recently completed illustrating the book "Hummy the Magnificent." Annie is also the original creator of Animal Hangers, which sell on Amazon, and are a reflection of her life on the farm.
+                    Annie lives near Sedona, Arizona. She has two sons and two granddaughters to whom she has passed on her love for nature and art.</p>
+            </div>
+            <div class="history-image">
+                <img src="images/hummy.png" alt="Annie's portrait">
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/barn.jpg" alt="Gallery Image 1">
+            <img src="images/egga.jpg" alt="Gallery Image 2">
+            <img src="images/chickens.jpg" alt="Gallery Image 3">
+        </div>
+    </section>   
+
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p>"Annie's art is amazing!"</p>
+                <span>- Anonymous Customer 1</span>
+            </div>
+            <div class="testimonial">
+                <p>"I love the design and style!"</p>
+                <span>- Anonymous Customer 2</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rhinehart Art. All rights reserved.</p>
+    </footer>
+</body>
+</html>
